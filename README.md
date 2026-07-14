@@ -8,6 +8,16 @@ The project explores how aerial robots, ground robots, stationary sensing nodes,
 
 > **Where should rescuers intervene first to maximize the probability of saving lives without exposing teams to unnecessary risk?**
 
+## Implementation Repository
+
+This repository documents the **research vision, scientific rationale, system architecture, and development roadmap** of RescueMind.
+
+The source code, simulation environments, experimental modules, and implementation prototypes are being developed in the dedicated repository:
+
+### [RescueMind-Prototype](https://github.com/panagiotagrosdouli/RescueMind-Prototype)
+
+> **Research here. Implementation there. One shared mission: turning distributed robotic perception into actionable rescue intelligence.**
+
 ## The Wall We Aim to Break
 
 During the first critical hours after a major earthquake, rescue teams must make high-stakes decisions under severe uncertainty. Rubble is unstable, access routes are obstructed, communication infrastructure may be degraded, and available information is incomplete or contradictory.
@@ -183,6 +193,8 @@ The three-minute pitch will focus on a simple transition:
 
 No claim is made that the complete system described here has already been implemented or clinically/operationally validated. The repository will document assumptions, prototypes, simulations, experiments, limitations, and results as the project develops.
 
+Active implementation work is maintained in [RescueMind-Prototype](https://github.com/panagiotagrosdouli/RescueMind-Prototype).
+
 ## Repository Structure
 
 ```text
@@ -195,17 +207,7 @@ RescueMind/
     └── RESEARCH_VISION.md
 ```
 
-Future directories may include:
-
-```text
-simulation/       Multi-agent simulation environments
-perception/       Sensor-processing and fusion modules
-mapping/          SLAM and Living Disaster Twin components
-coordination/     Exploration and task-allocation algorithms
-triage/           Rescue Priority Index models
-interface/        Human command and visualization tools
-tests/            Unit, integration, and scenario tests
-```
+The software implementation, simulations, tests, and executable examples are intentionally maintained in the separate [RescueMind-Prototype](https://github.com/panagiotagrosdouli/RescueMind-Prototype) repository, keeping the research specification distinct from the evolving codebase.
 
 ## Responsible Use
 
